@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true, // Consider allowing JS files if you have any JS in your project
+    "skipLibCheck": true,
+    "esModuleInterop": true, // Enable for better default import interoperability
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node", // Ensure this is correctly capitalized if on a case-sensitive system
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["vite/client", "@testing-library/jest-dom"]
+  },
+  "include": ["src/**/*"] // Make sure to include all files within the src directory
+}
+
