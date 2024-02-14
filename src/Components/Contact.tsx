@@ -1,5 +1,5 @@
 import React from 'react';
-
+import GettingStarted from './GettingStarted';
 function Contact() {
     return (
         <div className='bg-white text-blue-950 h-screen font-mono'>
@@ -21,6 +21,8 @@ function Contact() {
                 <button className="bg-blue-900 text-white font-light px-4 py-2 rounded hover:bg-blue-700">Submit</button>
             </form>
         </div>
+        <div><GettingStarted/></div>
+        
         </div>
     );
 }

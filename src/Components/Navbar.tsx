@@ -56,14 +56,14 @@ function Navbar() {
                     <NavLink to="/about" className="hover:text-blue-500 mb-4" onClick={() => setIsOpen(false)}>About</NavLink>
 
 <NavLink to="/posts" className="hover:text-blue-500 mb-4" onClick={() => setIsOpen(false)}>Whiteboard</NavLink>
-<NavLink to="/contact" className="hover:text-blue-500" onClick={() => setIsOpen(false)}>Contact</NavLink>
+<NavLink to="/gettingStarted" className="hover:text-blue-500" onClick={() => setIsOpen(false)}>Resources</NavLink>
 
                 </div>
                 <div className="hidden sm:flex space-x-4 justify-center mt-4">
     <NavLink to="/about" className="hover:text-gray-300" onClick={() => setIsOpen(false)}>About</NavLink>
     
     <NavLink to="/posts" className="hover:text-gray-300" onClick={() => setIsOpen(false)}>Whiteboard</NavLink>
-    <NavLink to="/contact" className="hover:text-gray-300" onClick={() => setIsOpen(false)}>Contact</NavLink>
+    <NavLink to="/gettingStarted" className="hover:text-gray-300" onClick={() => setIsOpen(false)}>Resources</NavLink>
 </div>
 
             </div>
