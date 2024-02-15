@@ -35,5 +35,13 @@ actor Dpost {
   public query func readPost(): async [Post] {
     return List.toArray(posts);
   };
+  public func deletePost(postIdToDelete: Nat): async () {
+  // Filter the list to exclude the post with the given postId
+  posts := List.filter(posts, func(post: Post): Bool {
+    return post.postId != postIdToDelete;
+  });
+  
+};
+
 }
 
