@@ -1,4 +1,4 @@
-# Vite + React + Motoko
+# Vite + React + Motoko + Tailwind Css
 
 ### Get started directly in your browser:
 
